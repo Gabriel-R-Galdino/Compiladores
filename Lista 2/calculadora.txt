@@ -1,0 +1,23 @@
+real n1, n2, valor 
+caracter op 
+escrever "Digite o primeiro numero: " 
+ler n1 
+escrever "Qual a operacao: " 
+ler op 
+escrever "Digite o segundo numero: " 
+ler n1 
+escolha(op) 
+caso "+" 
+valor <- n1 + n2 
+caso "-" 
+valor <- n1 - n2 
+caso "*" 
+valor <- n1 * n2 
+caso "/" 
+se n2 == 0 entao 
+escrever "Erro! Divisão por zero" 
+senao 
+valor <- n1 / n2 
+fimse 
+fimescolha 
+escrever "O resultado eh: " valor
