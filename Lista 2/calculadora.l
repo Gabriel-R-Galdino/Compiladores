@@ -3,6 +3,8 @@
 #include <stdlib.h>
 %}
 
+/* --- Discentes: Gabriel Carvalho Dos Santos e Gabriel Rosa Galdino --- */
+
 /* --- Definições Auxiliares --- */
 WS      [ \t\n\r]
 LETRA   [a-zA-Z_]
